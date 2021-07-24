@@ -20,5 +20,5 @@ jobs:
     - name: configure1  
       run: sudo apt-get install mingw32 mingw32-binutils mingw32-runtime
     - name: corr
-      run: whereis i686-w64-mingw32-gcc
+      run: ./cross-compile-mingw.sh
  
